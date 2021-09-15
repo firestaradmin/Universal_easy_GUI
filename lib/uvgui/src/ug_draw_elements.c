@@ -1,6 +1,17 @@
+/*************************************************
+ * @brief a basic element draw func
+ * @date 2020
+ * @author firestaradmin
+*************************************************/
+
+
 #include "ug_draw_elements.h"
 #include "ug_disp.h"
 #include "ug_mem.h"
+
+
+
+
 /* ug_Private_Fun */
 static void _ug_fillCircle_Helper(int16_t x0, int16_t y0, int16_t r, uint8_t corner, int16_t delta, ug_color_t color);
 static void _ug_drawCircle_Helper(int16_t x0, int16_t y0, int16_t r, uint8_t corner, ug_color_t color);

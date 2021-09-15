@@ -29,8 +29,8 @@ void ug_port_disp_init(void)
     ug_disp_drv_init(&disp_drv);                    /*Basic initialization*/
 
     /*Set the resolution of the display*/
-    disp_drv.hor_res = 100;
-    disp_drv.ver_res = 50;
+    disp_drv.hor_res = UG_HOR_RES_MAX;
+    disp_drv.ver_res = UG_VER_RES_MAX;
 
     /*Used to copy the buffer's content to the display*/
     disp_drv.flush_screen = disp_flush;

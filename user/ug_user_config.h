@@ -26,8 +26,8 @@
  * UVGUI V1.10
  **********************/
 /* Maximal horizontal and vertical resolution to support by the library.*/
-#define UG_HOR_RES_MAX          (100)
-#define UG_VER_RES_MAX          (50)
+#define UG_HOR_RES_MAX          (320)
+#define UG_VER_RES_MAX          (240)
 
 /* Color depth:
  * - 1:  1 byte per pixel

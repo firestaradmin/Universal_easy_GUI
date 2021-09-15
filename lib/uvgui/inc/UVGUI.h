@@ -1,14 +1,14 @@
 /************************************************************************************
- * Copyright (c), 2020, LXG.
- * A universal GUI Lib, usually used in screen display of Embedded System.
+ * Copyright (c), 2021, LXG.
+ * A universal easy GUI Lib, usually used in screen display of Embedded System.
  * @file UVGUI.h
  * @author firestaradmin
- * @version	1.10
- * @date 2020/9/25
+ * @version	2.1.1
+ * @date 2021/9/15
  * @history:
  * 2020/7/25 V1.00 简易的版本
  * 2020/9/25 V1.10 仿照LVGL，使用链表和对象的思维方式。
- *
+ * 2021/9/15 V2.1.1 更改目录结构，放弃复杂化GUI
  *
  *************************************************************************************/
 
